@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Exam</title>
+    <link rel="stylesheet" href="examstyle.css">
+    <script src="main.js"></script>
+
+</head>
+<body>
+    <div class="main-content" id="main-content">
+        <h1>Danh sách các kỳ thi</h1>
+        <!-- Ô tìm kiếm -->
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Tìm kiếm...">
+            <button id="search-btn"><i class='bx bx-search'></i></button>
+        </div>
+
+        <!-- Danh sách các kỳ thi -->
+        <ul class="exam-list">
+            <div class="exam-option">
+                <button class="free">
+                    <li>Luyện tập</li>
+                </button>
+            </div>
+            <div class="exam-option">
+                <button class="scheduled">
+                    <li>Giữa kỳ</li> 
+                </button>
+            </div>
+            <div class="exam-option">
+                <button class="free">
+                    <li>Cuối kỳ</li>
+                </button>
+            </div>
+        </ul>
+        <button id="start-exam">Bắt đầu làm bài</button>
+    </div>
+</body>
+</html>
